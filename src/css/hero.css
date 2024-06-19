@@ -1,0 +1,113 @@
+@media (min-width: 0px) {
+  .hero {
+    background: var(--bg-1);
+    display: flex;
+
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .hero .container {
+  }
+  .cv-card {
+    border: 4px solid var(--white);
+    border-radius: 160px 0;
+    padding: 24px;
+    width: 320px;
+    height: 520px;
+    box-shadow: -4px -4px 2px 0 var(--brand-1);
+  }
+  .header-cv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heder-cv-img {
+    border: 3px solid var(--brand-1);
+    border-radius: 64px;
+    width: 96px;
+    height: 96px;
+  }
+  .header-cv-title {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 131%;
+    text-transform: capitalize;
+    color: var(--white);
+    margin-top: 16px;
+  }
+  .header-cv-description {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: var(--white);
+  }
+  .body-cv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .cv-info {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .cv-info-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .cv-info-icon {
+    fill: var(--brand-1);
+  }
+  .cv-info-link {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: var(--white);
+  }
+  .cv-skill {
+  }
+  .cv-skill-list {
+    display: flex;
+    gap: 16px;
+  }
+  .item {
+  }
+  .cv-skill-bg {
+    border-radius: 8px;
+    padding: 0px 8px;
+
+    background: var(--brand-1);
+    text-align: center;
+  }
+  .cv-skill-text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: var(--bg-1);
+  }
+  .cv-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 32px;
+    padding: 16px 32px;
+    width: 227px;
+    height: 56px;
+  }
+  .cv-btn-icon {
+    fill: var(--bg-1);
+  }
+}
+@media (min-width: 390px) {
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 1920px) {
+}

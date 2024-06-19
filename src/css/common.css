@@ -1,0 +1,38 @@
+/* Резиновий дизайн для мобільних пристроїв (від 320 до 360 пікселів) */
+@media (min-width: 320px) and (max-width: 360px) {
+  .container {
+    padding: 64px 24px;
+  }
+}
+
+/* Перелом для мобільних пристроїв (від 360 до 768 пікселів) */
+@media (min-width: 360px) and (max-width: 768px) {
+  .container {
+    padding: 64px 24px;
+  }
+}
+
+/* Перелом для планшетів (від 768 до 1280 пікселів) */
+@media (min-width: 768px) and (max-width: 1280px) {
+  .container {
+    padding: 64px;
+
+    margin: 0 auto;
+  }
+}
+
+/* Перелом для комп'ютерів (від 1280 пікселів і більше) */
+@media (min-width: 1280px) {
+  .container {
+    padding: 128px;
+    /* max-width: 1140px; */
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1920px) {
+  .container {
+    padding: 128px;
+    /* width: 100%; */
+    margin: 0 auto;
+  }
+}
